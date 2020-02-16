@@ -3,9 +3,11 @@
 ## Instructions to run
 
 ### Download Telemetry Server
+```
 git clone https://github.com/nasa/openmct-tutorial.git
-cd openmct-tutorial
 
+cd openmct-tutorial
+````
 ### Update server to accept request from different port
 
 install new dependency
@@ -31,7 +33,7 @@ npm start
 ```
 
 ### Download Open MCT Coding exercise
-git clone https://github.com/
+git clone https://github.com/motiondirector/telemetryApp
 
 cd into this local repo
 
@@ -45,4 +47,5 @@ See the app working from:
 
 http://localhost:8081/
 
+![telemetryApp](images/appUi.png)
 
