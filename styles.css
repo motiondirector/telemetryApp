@@ -1,0 +1,127 @@
+body {
+  background: #222b38;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: 100;
+  margin: 0;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: 100;
+  color: #78a0b1;
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}
+
+header {
+  border-bottom: solid 1px #0b0e13;
+  padding: 10px 40px;
+  color: #78a0b1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  max-width: 60px;
+  margin: 0 14px 0 0;
+}
+
+header p {
+  margin: 0 0 0 20px;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  header p {
+    font-size: 14px;
+  }
+}
+
+header div {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.filterControls {
+  display: flex;
+  padding: 20px 0;
+}
+
+button {
+  font-size: 16px;
+  background: #03a9f4;
+  color: #fff;
+  border: solid 1px #03a9f487;
+  border-radius: 3px;
+  margin: 10px 20px 10px 0;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+button.pressed {
+  background: transparent;
+  color: #03a9f48c;
+}
+
+button:hover {
+  background: #03a9f487;
+}
+
+.table .topRow {
+  display: flex;
+  justify-content: space-around;
+  background: #0c0c0c6e;
+  padding: 10px 0;
+  color: #03a9f4;
+  font-weight: bold;
+}
+
+.table #tableContent .row {
+  display: flex;
+  justify-content: space-around;
+  color: #78a0b1;
+  background: #00000017;
+  font-weight: 100;
+}
+
+.table #tableContent .row > div {
+  width: 33%;
+  text-align: left;
+  padding: 3px 20px;
+  border: solid 1px #0000002b;
+}
+
+.table #tableContent > .row:nth-of-type(even) {
+  background: #0000002e;
+}

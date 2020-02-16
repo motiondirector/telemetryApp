@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset=utf-8>
+    <meta name="author" content="Isaias Reyes">
+    <meta name="Description" content="Telemetry App">
+    <title>Telemetry App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+           maximum-scale=1.0, user-scalable=0" />
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./images/nasa-logo.svg" alt="NASA logo">
+            <h2>Telemetry App</h2>
+        </div>
+        <div>
+            <p><strong>User: </strong>Isaias Reyes</p>
+            <p><strong>Status: </strong>Active</p>
+        </div>
+    </header>
+    <div class="content">
+        <div class="filterControls">
+            <h3>Filter by: </h3>
+            <button id='toggleVsBtn' type="button">pwr.v</button>
+            <button id='toggleCsBtn' type="button">pwr.c</button>
+            <button id='toggleOrderBtn' type="button">&uarr; &darr;</button>
+        </div>
+        <div class="table">
+            <div class="topRow">
+                <div>ID</div>
+                <div>Timestamp</div>
+                <div>Value</div>
+            </div>
+            <div id="tableContent"></div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
